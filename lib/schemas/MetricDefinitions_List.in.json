@@ -1,0 +1,17 @@
+{
+    "type": "object",
+    "properties": {
+        "resourceUri": {
+            "required": true,
+            "type": "string"
+        },
+        "metricnamespace": {
+            "required": false,
+            "type": "string"
+        },
+        "api_version": {
+            "required": true,
+            "type": "string"
+        }
+    }
+}
